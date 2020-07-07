@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - run: echo "Te voilà, workflow 1"
+      - run: echo "Te voilà, workflow 1*"
