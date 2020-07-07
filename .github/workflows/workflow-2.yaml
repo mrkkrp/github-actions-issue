@@ -1,8 +1,8 @@
-name: Workflow 1
-on: push
+name: Workflow 2
+on: pull_request
 jobs:
   my_job:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - run: echo "Te voilà, workflow 1"
+      - run: echo "Te voilà, workflow 2"
